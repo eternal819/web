@@ -71,6 +71,10 @@ export const constantRoutes = [
     hidden: true
   },
   {
+    path: '/orderSystem',
+    component: () => import('@/views/orderSystem/index'),
+  },
+  {
     path: '/',
     component: Layout,
     redirect: '/dashboard',
